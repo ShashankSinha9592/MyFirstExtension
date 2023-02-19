@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#grandParent{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(32, 32, 42);
+    color: white;
+
+}
+
+
+#parent{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+}
+
+#child{
+    border: 5px solid rgb(173, 172, 172);
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
+
+#clickactivity{
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(229, 137, 9);
+    color: rgb(32, 32, 42);
+    cursor: pointer;
+}
+
+#clickactivity:hover{
+
+    box-shadow: rgba(255, 251, 251, 0.743) 0px 3px 8px;
+    transition: 0.5s;
+
+}
